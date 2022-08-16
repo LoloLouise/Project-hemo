@@ -1,0 +1,27 @@
+{
+  "name": "projeto-hemo",
+  "version": "1.0.0",
+  "description": "Projeto banco de sangue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoloLouise/Project-hemo.git"
+  },
+  "keywords": [
+    "JS",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Lolo Louise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoloLouise/Project-hemo/issues"
+  },
+  "homepage": "https://github.com/LoloLouise/Project-hemo#readme",
+  "dependencies": {
+    "cfonts": "^3.1.1"
+  }
+}
