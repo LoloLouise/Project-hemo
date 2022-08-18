@@ -1,0 +1,47 @@
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+html {
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100vw;
+}
+
+strong {
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
+}
+
+.mainNavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em 3em 1.5em 3em;
+  background-color: rgb(0, 0, 0, 0.1);
+}
+
+.navbarLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.navbarLink {
+  text-decoration: none;
+  padding: 0.7em;
+  border-radius: 2em;
+  transition: 0.4s;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.navbarLink:hover {
+  background-color: rgb(0, 0, 0, 0.1);
+}
