@@ -1,7 +1,7 @@
 @import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
 
 html {
-  background-color: #fbceab;
+  background-color: #ffbf90;
   height: 100vh;
   width: 100vw;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -13,7 +13,7 @@ html {
   width: 200px;
   height: 100px;
   border-radius: 30px;
-  margin-left: 4px;
+  margin-right: 1px;
 }
 
 
@@ -23,7 +23,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 1.5em 3em 1.5em 3em;
-  background-color:#f79c7d;
+  background-color:#dc5135;
   font-size: 18px;
 }
 
@@ -47,29 +47,39 @@ html {
   background-color: #f26b4e;
 }
 
-.container {
+main.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3em 3em 3em;
-
 }
 
-.principal {
-  /*background-color: blue;*/
-  padding: 1em;
-  font-size: 20px;
+.mainTitle {
+  margin-top: 1em;
+  font-size: 30px;
   font-weight: bold;
-  color: #ffffda;
+  color: #840000;
+  margin-bottom: 1em;
 }
 
-.principal, .principalText {
-  padding: 0.1vh 100vw;
-  background-color: #d3552b;
-  color: #fbceab;
+.firstText {
+  font-size: 20px;
+  color:#840000;
+  margin-bottom: 1em;
 }
 
+div {
+  padding: 0.5vh 0.5vw;
+
+}
+
+div.et_cover_background {
+  background-color: #f26b4e;
+  background-size: cover!important;
+  background-position: top!important;
+  background-attachment: fixed;
+  background-origin: padding-box;
+}
 
 strong {
   font-weight: bold;
